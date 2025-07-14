@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Django
+*.db
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+/media
+/staticfiles
+/static_root/
+
+# Env & config
+.env
+.env.*
+
+# Docker
+*.pid
+*.seed
+*.bak
+docker-compose.override.yml
+pgdata/
+
+# VSCode
+.vscode/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Telegram bot cache (если вдруг есть)
+__telegram_cache__/
+
+# Migrations (по желанию — если часто чистишь)
+**/migrations/*.py
+!**/migrations/__init__.py
